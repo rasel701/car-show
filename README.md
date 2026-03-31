@@ -1,4 +1,5 @@
 🚗 Car Show - Premium Automobile Showcase
+
 A modern, high-performance automobile showcase application built with Next.js 16, Tailwind CSS, and Framer Motion. This project features a premium UI, interactive car cards with modal details, and a fully responsive layout.
 
 🚀 Live Demo
@@ -53,6 +54,7 @@ Build for production:
 
 Bash
 npm run build
+
 📸 Screenshots
 | Desktop View | Mobile View |
 | :---: | :---: |
@@ -60,7 +62,7 @@ npm run build
 
 👤 Author
 Md Rasel
+
 Role: Junior Frontend & MERN Stack Developer
 
-📄 License
-This project is licensed under the MIT License.
+
