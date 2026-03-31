@@ -13,6 +13,7 @@ import {
   HiTruck,
   HiWrenchScrewdriver,
 } from "react-icons/hi2";
+
 const Nav = () => {
   const [active, setActive] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +30,10 @@ const Nav = () => {
       <div
         key={index}
         className={`hover:text-green-200 transition-all border border-gray-300/30  shadow-xl w-[80%] md:w-full flex items-center gap-1 cursor-pointer px-3 py-2 rounded-xl ${active === nav.link && "bg-white/40  "}`}
-        onClick={() => setActive(nav.link)}
+        onClick={() => {
+          setActive(nav.link);
+          setMenuOpen(false);
+        }}
       >
         {nav.icon}
         <Link href={`#${nav.link}`}>{nav.link}</Link>
